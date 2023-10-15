@@ -21,11 +21,16 @@ dependencies:
     specifier: latest
     version: 0.1.33
   '@whiskeysockets/baileys':
-    specifier: ^6.4.0
+    specifier: 6.5.0
     version: 6.5.0
   wa-sticker-formatter:
     specifier: 4.3.2
     version: 4.3.2
+
+devDependencies:
+  prettier:
+    specifier: 3.0.3
+    version: 3.0.3
 
 packages:
 
@@ -2428,6 +2433,12 @@ packages:
       tar-fs: 2.1.1
       tunnel-agent: 0.6.0
     dev: false
+
+  /prettier@3.0.3:
+    resolution: {integrity: sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
 
   /process-warning@1.0.0:
     resolution: {integrity: sha512-du4wfLyj4yCZq1VupnVSZmRsPJsNuxoDQFdCFHLaYiEbFBD7QE0a+I4D7hOxrVnh78QE/YipFAj9lXHiXocV+Q==}
