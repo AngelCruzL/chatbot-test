@@ -109,13 +109,13 @@ const linkedinFlow = addKeyword(['linkedin', 'link']).addAnswer(
 
 const mainFlow = addKeyword(['hola', 'ole', 'alo', 'ola', 'que onda', 'wenas'])
   .addAnswer('Hola bienvenido a este *Chatbot* 🫡')
-  .addAnswer(
-    'En este momento me encuentro en desarrollo pero espero pronto poder ayudarte',
-  )
+  // .addAnswer(
+  //   'En este momento me encuentro en desarrollo pero espero pronto poder ayudarte',
+  // )
   .addAnswer(
     [
-      '\nAhorita estoy en fase de pruebas 🛠️',
-      '\nPero mientras puedes ir a ver mi portfolio web o buscarme en linkedin para una comunicación mas directa',
+      'Actualmente estoy en fase de pruebas 🛠️',
+      '\nPero mientras puedes ir a ver mi portfolio web o buscarme en linkedin para una comunicación mas directa\n',
       '*web*: para ver mi portfolio',
       '*linkedin*: para ver mi perfil',
     ],
